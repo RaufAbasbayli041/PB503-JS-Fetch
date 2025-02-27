@@ -1,0 +1,62 @@
+#navbar {
+    padding: 8px 200px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#datas {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#datas .card {
+    gap: 15px;
+}
+
+#datas .card .card-body  {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+height: 50px;
+}
+
+
+#datas .card .card-body-button {
+display: flex;
+justify-content: center;
+gap: 9px;
+padding-bottom: 15px;
+
+}
+
+#datas .card .card-body-button button{
+    font-size: 14px;
+}
+
+
+#navbar button {
+    font-size: medium;
+    display: flex;  
+    align-items: center;
+}
+
+#footer {
+    height: 50px;
+    padding: 0px 200px;
+    font-size: medium;
+}
+
+#datas .card ul li {
+    font-size: small;
+}
+
+#datas .card p {
+    font-size: small;
+} 
+
+#data .card h5 {
+    font-size: medium;
+}
