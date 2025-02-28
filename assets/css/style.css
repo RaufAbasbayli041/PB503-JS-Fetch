@@ -13,21 +13,27 @@
 
 
 #datas .card {
+    width: 260px;
     gap: 15px;
+    display: flex;
+    justify-content: start;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #datas .card .card-body  {
-    display: flex;
-justify-content: center;
-flex-direction: column;
-height: 50px;
+
+padding-left: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+
 }
 
 
 #datas .card .card-body-button {
 display: flex;
 justify-content: center;
-gap: 9px;
+gap: 17px;
 padding-bottom: 15px;
 
 }
@@ -50,13 +56,20 @@ padding-bottom: 15px;
 }
 
 #datas .card ul li {
+    
     font-size: small;
+    padding-left: 10px;
 }
 
 #datas .card p {
     font-size: small;
 } 
 
-#data .card h5 {
+#datas .card h5 {
     font-size: medium;
+    padding-left: 10px;
+}
+
+#datas .card img {
+   border-radius: 0px;
 }
